@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Data science is all about finding good models to understand patterns in your data. You'll find yourself performing optimizations all the times: examples are: maximizing model likelihoods, minimizing errors,... essentially, you'll perform a lot of minimizations and maximizations along the way. And is just that where derivatives come in very handy!
+Data science is all about finding good models to understand patterns in your data. You'll find yourself performing optimizations all the time. Examples are: maximizing model likelihoods and minimizing errors. Essentially, you'll perform a lot of minimizations and maximizations along the way when creating machine learning models. And this just that where derivatives come in very handy!
 
 ## Objectives
 
@@ -65,7 +65,7 @@ plt.legend(loc="upper left");
 ![png](index_files/index_8_0.png)
 
 
-We notice that our function, $2x^2-8x$ reaches a minimum at $x = 2$. interestingly, it is exactly at $x=2$ that our function $f'(x)$ crosses the x-axis! In mathematical terms $f'(2) = 0$!
+We notice that our function, $2x^2-8x$ reaches a minimum at $x = 2$. Interestingly, it is exactly at $x=2$ that our function $f'(x)$ crosses the x-axis! In mathematical terms $f'(2) = 0$!
 
 This is great... and this is always the case when looking for minima! 
 
@@ -120,7 +120,7 @@ You can see that here, $-3x^2+30x$ reaches a maximum at $x=5$. Similarly to what
 
 ## How Does This Happen?
 
-To understand what's happening, let's take a minute to refreshen our memories. Remember that a derivative is the ***instantaneous rate of change*** or the ***slope*** of a function at a certain point $x$. Then, think about what happens when you reach a minimum or a maximum. essentially, your slope changes from positive to negative for a maximum, and from negative to positive for a minimum. That is exactly what we see in the derivative functions: there is a change in sign for the $f'(x)$ values whenever $f(x)$ reaches a maximum or a minimum!
+To understand what's happening, let's take a minute to refreshen our memories. Remember that a derivative is the ***instantaneous rate of change*** or the ***slope*** of a function at a certain point $x$. Then, think about what happens when you reach a minimum or a maximum. Essentially, your slope changes from positive to negative for a maximum, and from negative to positive for a minimum. That is exactly what we see in the derivative functions: there is a change in sign for the $f'(x)$ values whenever $f(x)$ reaches a maximum or a minimum!
 
 ## Finding Minima or Maxima Mathematically
 
@@ -148,4 +148,4 @@ Great, now try this yourself for $-3x^2+30$!
 
 ## Summary
 
-Great! That was quite a bit of theory. Now, all this will help you to code a more complicated linear regression model from scratch using gradient descent. That's what we'll do next!
+Great! That was quite a bit of theory. Now, all this will help you to code a more complicated linear regression model from scratch using gradient descent. That's what you'll do next!
