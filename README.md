@@ -8,7 +8,7 @@ Data science is all about finding good models to understand patterns in your dat
 ## Objectives
 
 You will be able to:
-- Understand why derivatives are useful to find minima and maxima
+- Describe how minima and maxima are related to machine learning and optimization
 - Calculate minima and maxima mathematically
 
 ## Finding Minima and Maxima
