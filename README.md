@@ -1,4 +1,3 @@
-
 # Derivatives: Conclusion
 
 ## Introduction
@@ -8,6 +7,7 @@ Data science is all about finding good models to understand patterns in your dat
 ## Objectives
 
 You will be able to:
+
 - Describe how minima and maxima are related to machine learning and optimization
 - Calculate minima and maxima mathematically
 
@@ -62,7 +62,9 @@ plt.legend(loc="upper left");
 ```
 
 
+    
 ![png](index_files/index_8_0.png)
+    
 
 
 We notice that our function, $2x^2-8x$ reaches a minimum at $x = 2$. Interestingly, it is exactly at $x=2$ that our function $f'(x)$ crosses the x-axis! In mathematical terms $f'(2) = 0$!
@@ -113,7 +115,9 @@ plt.legend(loc="upper left");
 ```
 
 
+    
 ![png](index_files/index_13_0.png)
+    
 
 
 You can see that here, $-3x^2+30x$ reaches a maximum at $x=5$. Similarly to what you've seen before like, we see that $f'(x) = 0$ when $x = 5$. So, in conclusion, minima or maxima can easily be found when looking at the derivative of a function. 
