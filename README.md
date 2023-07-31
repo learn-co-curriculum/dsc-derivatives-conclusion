@@ -41,6 +41,7 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 
 fig, ax = plt.subplots(figsize=(12,5))
+ax.remove()
 
 # plot 1
 plt.subplot(121)
@@ -94,6 +95,7 @@ import matplotlib.pyplot as plt
 %matplotlib inline
 
 fig, ax = plt.subplots(figsize=(12,5))
+ax.remove()
 
 # plot 1
 plt.subplot(121)
